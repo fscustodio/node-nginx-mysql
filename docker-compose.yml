@@ -3,7 +3,7 @@ services:
   app:
     build: ./
     volumes:
-      - ./app:/src/app
+      - ./node:/src/app
     expose:
       - '3000'
     ports:
